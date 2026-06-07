@@ -1,0 +1,18 @@
+name: Montpellier Open Data
+description: Montpellier Open Data CKAN open-data API live-verification for APIs.json cataloging.
+url: https://raw.githubusercontent.com/api-evangelist/data-montpellier3m-fr/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: >-
+      Montpellier Open Data runs CKAN and exposes a live, standardized open-data catalog API. The
+      endpoint was probed and returned a valid CKAN JSON response reporting approximately 0 datasets.
+    endpoints:
+      - url: https://data.montpellier3m.fr/api/3/action/package_search?rows=0
+        status: 200
+        note: Live CKAN API response verified.
+      - url: https://data.montpellier3m.fr
+        status: 200
+        note: Portal home.
