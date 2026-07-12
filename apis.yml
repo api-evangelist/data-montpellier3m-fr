@@ -41,6 +41,8 @@ apis:
       - type: x-api-endpoint
         url: https://data.montpellier3m.fr/api/3/action/package_search?rows=0
 common:
+  - type: DomainSecurity
+    url: security/data-montpellier3m-fr-domain-security.yml
   - type: Website
     url: https://data.montpellier3m.fr
   - type: Documentation
