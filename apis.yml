@@ -30,7 +30,7 @@ tags:
   - France
 created: '2026-06-07'
 modified: '2026-06-07'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: data-montpellier3m-fr:catalog
     name: Montpellier Open Data CKAN Action API
